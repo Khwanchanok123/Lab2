@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar {
-    background-color: darkgray;
+    background-color: lightgray;
     text-align: center;
     display: block;
     flex: 1;
@@ -62,6 +62,7 @@ body {
 
 .footer {
     background-color: gainsboro;
+    padding: 3px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
