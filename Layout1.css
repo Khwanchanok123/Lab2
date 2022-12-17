@@ -1,22 +1,68 @@
 body {
-    display : grid;
-    position: absolute;
-    width : 1920px;
-    height:1080 px;
-    background: rgb(252, 252, 252);
-    margin: 0 px;
-    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
 }
 
 .main {
-    background-color: black;
-    padding: 10px 20px 10px 20px;
+    background-color: dimgray;
+    padding: 10px 200px 10px 200px;
+    width: 100%;
 }
 
-.Logo {
-    background-color: darkgray;
-    padding: 20px;
+.logo {
+    background-color: gainsboro;
+    padding: 15px 20px 15px 20px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
+.navbar {
+    background-color: darkgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.header {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.sidebar {
+    background-color: darkgray;
+    text-align: center;
+    display: block;
+    flex: 1;
+    column-gap: 3;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.bodyarea {
+    background-color: lightgray;
+    text-align: center;
+    display:block;
+    flex: 2;
+    column-gap: 3;
+    height: 300px;
+}
+
+
+
+.footer {
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
