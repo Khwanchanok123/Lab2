@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: dimgray;
+    padding: 10px 200px 10px 200px;
+}
+
+.flex {
+    flex: 1;
+}
+
+.logonav {
+    background-color: gainsboro;
+    display: flex;
+    padding: 15px;
+}
+
+.header {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bodyarea {
+    display:flex;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    column-gap: 2rem;
+    flex-flow: wrap;
+}
+
+.box {
+    background-color: darkgray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+.footer {
+    background-color: gainsboro;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
