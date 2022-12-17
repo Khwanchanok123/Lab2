@@ -10,5 +10,13 @@ body {
 
 .main {
     background-color: black;
-    padding: 10 p;
+    padding: 10px 20px 10px 20px;
 }
+
+.Logo {
+    background-color: darkgray;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
