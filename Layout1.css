@@ -1,0 +1,14 @@
+body {
+    display : grid;
+    position: absolute;
+    width : 1920px;
+    height:1080 px;
+    background: rgb(252, 252, 252);
+    margin: 0 px;
+    padding: 0px;
+}
+
+.main {
+    background-color: black;
+    padding: 10 p;
+}
