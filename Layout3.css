@@ -18,7 +18,7 @@ body {
     flex-flow: wrap;
 }
 
-.box {
+.mainbox {
     flex: 1 0 21%;
     display: flex;
     justify-content: center;
