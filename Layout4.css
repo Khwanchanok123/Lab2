@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: white;
+}
+
+.main {
+    padding: 30px 180px 50px 180px;
+}
+
+.nav {
+    height: 80px;
+    background: gray;
+}
+
+.text {
+    height: 22px;
+    width: 100%;
+    background: lightgray;
+}
+
+.textbold {
+    background: gray;
+    height: 25px;
+    width: 100%;
+}
+
+.image {
+    height: 330px;
+    width: 100%;
+    background: gray;
+}
+.image2 {
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    background-color: gainsboro;
+}
+.imagesmall {
+    width: 100%;
+    height: 100%;
+    background: gainsboro;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.spacebox {
+    height: 100%;
+    border: 3px solid gainsboro;
+}
